@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+class FirstProgram
+{
+	public static void main(String[] args)
+	{
+		//console
+	   	System.out.print("StudentID : 2413111028\nstudentName : Natcha Thamphanitwong\nTopic : github\nDate : 11/20/2024");
+	
+		//DialogBox   
+		JoptionPane.showMessageDialong(null,
+		"StudentID : 2413111028\nStudentName : Natcha Thamphanitwong\nTopic : github\nDate : 11/20/2024");
+	   
+
+	}
+}
