@@ -8,8 +8,7 @@ public class Lab102 {
 			int years = minute / 525600;
 			int days = minute % 525600 / 1440;
 			System.out.println(minute+" minute is approximately "+years+" years and "+days+" days");
-			input.close();
-			
+			input.close();			
 	}
 
 }

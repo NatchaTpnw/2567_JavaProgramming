@@ -16,7 +16,6 @@ public class Lab104 {
 
 		    String message = "Employee name: "+name+"\nHour worked: "+workHour+"\nHourly wage: $ 7.5\nGross earning: $ "+grossEarning+"\nTax rate: 0.15\nTax: $ "+tax+"\nNet earning: $ "+netEarning;
 		    JOptionPane.showMessageDialog(null, message);
-
 		    }
 
 }

@@ -18,6 +18,5 @@ public class Lab105 {
 
 		    String message = "Summary of the transaction:\n\nCD ID: "+cdId+"\nCD Title: "+cdTitle+"\nCD unit Price : $"+price+"\nCD Quantity: "+Quantity+"\n\nSubtotal: $"+subtotal+"\nTax rate: 6.25%\nTotal: $"+total+"\n\nEnd of Program";
 		    JOptionPane.showMessageDialog(null, message);
-
 		    }
 }

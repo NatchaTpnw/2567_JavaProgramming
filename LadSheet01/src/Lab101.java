@@ -34,11 +34,7 @@ public class Lab101 {
 		String  frmamount= String.format("%,.2f",amount);
 		System.out.println("Discount from "+productdiscount +"%    " +frmtotalWithDiscount+" baht.");
 		System.out.println("Discount from "+productdiscount +"%    " +frmamount+" baht.");
-		
-		
-	
-
-		
+				
 	}
 
 }

@@ -12,6 +12,7 @@ public class Lab103 {
 
 	String massage = "You parking "+hours+" Hour "+minutes+ " Minute.\nAmount to paid is "+paid+" baht.";
 	JOptionPane.showMessageDialog(null, massage);
+	
 	}
 }
 
