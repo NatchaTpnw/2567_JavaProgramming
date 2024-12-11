@@ -1,4 +1,4 @@
 Student id : 2413111028
 Student name : Natcha Thamphanitwong
-Topic : Control Statements and Confirm Dialog box
-date : 12/04/2024
+Topic :String Method
+date : 12/11/2024
