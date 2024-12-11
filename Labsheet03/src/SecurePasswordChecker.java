@@ -60,9 +60,7 @@ public class SecurePasswordChecker {
 			{
 				System.out.println("Password validation errors.");
 				System.out.println(errors);
-			}
-			
-			
+			}						
 		}//endwhile
 		
 		

@@ -17,12 +17,10 @@ public class Lab302 {
 			}
 			else
 			{
-				JOptionPane.showMessageDialog(null,"Your e-mail is not hotmail or gmail dot com");
-			
+				JOptionPane.showMessageDialog(null,"Your e-mail is not hotmail or gmail dot com");			
 				inputEmail =JOptionPane.showInputDialog("Input your e-mail,again :");
 			}
 		}
-
 	}
 
 }

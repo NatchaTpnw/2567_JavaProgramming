@@ -17,10 +17,8 @@ public class Lab301 {
 			}
 			txtConcate += word+" ";
 		}
-		System.out.println(txtConcate.toUpperCase());
-		
+		System.out.println(txtConcate.toUpperCase());		
 		kb.close();
-
 	}
 
 }
