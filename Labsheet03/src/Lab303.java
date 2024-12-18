@@ -6,20 +6,25 @@ public class Lab303 {
 		String sentence = input.nextLine();
 		
 		int countSpace=0;
-		while(!sentence.endsWith(".")){
+		while(!sentence.endsWith("."))
+		{
 			System.out.print("Input a sentence, again: ");
 			sentence = input.nextLine();
+			
 		}
-		for (int i = 0 ; i < sentence.length();i++)
+		for (int i = 0; i < sentence.length(); i++)
 		{
-			if (sentence.charAt(i) == ' ');
+			if(sentence.charAt(i)== ' ')
 			{
-				countSpace ++ ;
-			
+				countSpace++;
+				
 			}
-			
 		}
-		System.out.println("This sentence has " + countSpace +"Spacebar");
-		System.out.println("This sentence has " + (countSpace+1) +"word");
+		
+		System.out.println();
+		System.out.println("This sentence has " + countSpace + " spacebar.");
+		System.out.println("This sentence has " + (countSpace+1) + " word.");
+
 	}
+
 }
