@@ -1,4 +1,4 @@
 Student id : 2413111028
 Student name : Natcha Thamphanitwong
-Topic : Method
-date : 12/18/2024 
+Topic : Array and Array Method
+date : 12/25/2024
