@@ -1,4 +1,4 @@
 Student id : 2413111028
 Student name : Natcha Thamphanitwong
-Topic : Class and Object
-date : 1/15/2024
+Topic : Array Object and Composition Concept
+date : 1/29/2025
