@@ -61,7 +61,6 @@ public class Drink {
 	}
 	public int getTotalprice () {
 		return 0;
-		
 	}
 	
 	
