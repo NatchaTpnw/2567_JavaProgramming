@@ -24,6 +24,7 @@ public class FictionDemo1 {
 		}
 		Line();
 		System.out.println(book1);
+		scan.close();
 	}
 	
 	public static void Line() {
