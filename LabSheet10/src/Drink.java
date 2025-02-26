@@ -1,6 +1,5 @@
 public class Drink {
 	
-}
 	private int type ;
 	private char size;
 	

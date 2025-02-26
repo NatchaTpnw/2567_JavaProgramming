@@ -17,7 +17,6 @@ public class Barista {
 		}else if(this.gender == 'M') {
 			return "Male";
 		}else {return " ";}
-	}
-	
+	}	
 }
 

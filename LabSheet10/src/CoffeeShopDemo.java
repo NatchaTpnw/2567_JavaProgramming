@@ -23,5 +23,4 @@ public class CoffeeShopDemo {
         		"\nBarista: "+selectedBarista.getName()+" ("+selectedBarista.getGender()+")");
 	}
 
-
 }
