@@ -1,4 +1,6 @@
 public class Drink {
+	
+}
 	private int type ;
 	private char size;
 	
@@ -50,8 +52,7 @@ public class Drink {
 		else
 		{
 
-		return "";
-		
+		return null ;		
 		}	
 	
 		public int getSizePrice() {

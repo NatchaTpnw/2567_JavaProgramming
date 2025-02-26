@@ -1,6 +1,4 @@
-
 public class Barista {
-	
 	private String name;
 	private char gender;
 	Barista(String name,char gender){

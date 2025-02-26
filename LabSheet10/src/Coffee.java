@@ -1,5 +1,5 @@
-
 public class Coffee extends Drink  {
+	
 	private int typeCoffee;
 	private char sizeCoffee;
 	private Barista barista;
@@ -61,7 +61,8 @@ public class Coffee extends Drink  {
 			return 200;
 		}else if(this.sizeCoffee == 'V'){
 			return 250;
-		}else {return 0;}
+		}else 
+			return 0;
 	}
 	@Override
 	public int getTotalPrice() {
@@ -70,5 +71,4 @@ public class Coffee extends Drink  {
 	public String toString() {
 		return super.getTypeName()+ " " + getTypeName() +" ("+getSizeName()+") is "+getTotalPrice()+" baht.";
 	}
-}
 }
