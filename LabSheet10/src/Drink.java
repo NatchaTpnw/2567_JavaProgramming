@@ -1,5 +1,4 @@
 public class Drink {
-	
 	private int type ;
 	private char size;
 	
@@ -55,14 +54,19 @@ public class Drink {
 		
 		}	
 	
-	public int getSizePrice () {
-		return 0;
-	}
-	public int getTotalprice () {
-		return 0;
-	}
+		public int getSizePrice() {
+			if(this.size == 'S') {
+				return 15;
+			}else if(this.size == 'M')  {
+				return 20;
+			}else if(this.size == 'L') {
+				return 25;
+			}else {return 0;}
+		}
+		public int getTotalPrice() {
+			return getTypePrice() + getSizePrice();
 	
 	
 	
-
+		}
 }
